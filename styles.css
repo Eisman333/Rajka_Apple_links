@@ -5,6 +5,7 @@ body {
 ul {
     list-style-type: none;
     padding: 0;
+    display: inline-block;
   }
 
 li {
@@ -14,4 +15,8 @@ li {
 .wrapper {
     max-width: 25rem;
     margin: auto;
+}
+
+.links {
+    text-align: center;
 }
