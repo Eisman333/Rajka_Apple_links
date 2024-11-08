@@ -7,6 +7,10 @@ ul {
     padding: 0;
   }
 
+li {
+    font-size: x-large;
+}
+
 .wrapper {
     max-width: 25rem;
     margin: auto;
