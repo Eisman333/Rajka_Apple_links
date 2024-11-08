@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(#f6d99c, #e9723a);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+i {
+    padding-right: .5rem;
+}
+
+.btn-group-vertical a.btn {
+    font-size: xx-large;
+}
+
+body h1,
+p.lead.fw-bold {
+    margin-bottom: 1rem;
+}
