@@ -2,6 +2,11 @@ body {
     background-image: linear-gradient(#f6d99c, #e9723a);
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
 .wrapper {
     max-width: 25rem;
     margin: auto;
