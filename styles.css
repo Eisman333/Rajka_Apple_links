@@ -1,7 +1,7 @@
 body {
     background-image: linear-gradient(#f6d99c, #e9723a);
     text-align: center;
-    color: white;
+    color: white !important;
 }
 
 ul {
