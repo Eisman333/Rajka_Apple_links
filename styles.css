@@ -1,4 +1,8 @@
 body {
     background-color: #f6d99c;
-    text-align: center;
+}
+
+.wrapper {
+    max-width: 50rem;
+    margin: auto;
 }
