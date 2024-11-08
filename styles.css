@@ -10,6 +10,7 @@ ul {
 
 li {
     font-size: x-large;
+    padding: .5rem 0 .5rem 0;
 }
 
 .wrapper {
@@ -19,4 +20,8 @@ li {
 
 .links {
     text-align: center;
+}
+
+.links a {
+    text-decoration: none;
 }
