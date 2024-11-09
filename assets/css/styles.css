@@ -2,21 +2,18 @@ body {
     background-image: linear-gradient(#f6d99c, #e9723a);
 }
 
-i {
-    padding-right: .5rem;
-}
-
-.btn-group-vertical a.btn {
+.btn {
     font-size: xx-large;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.btn i {
+i {
     margin-right: auto;
+    padding-right: 1rem;
 }
 
-.btn span {
+span {
     margin-right: auto;
 }
