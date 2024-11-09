@@ -9,8 +9,3 @@ i {
 .btn-group-vertical a.btn {
     font-size: xx-large;
 }
-
-body h1,
-p.lead.fw-bold {
-    margin-bottom: 1rem;
-}
