@@ -17,3 +17,8 @@ i {
 span {
     margin-right: auto;
 }
+
+.text-bg-violet {
+    color: #fff !important;
+    background-color: #e592d2;
+}
