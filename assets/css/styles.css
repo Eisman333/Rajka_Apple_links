@@ -8,4 +8,15 @@ i {
 
 .btn-group-vertical a.btn {
     font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn i {
+    margin-right: auto;
+}
+
+.btn span {
+    margin-right: auto;
 }
