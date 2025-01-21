@@ -2,13 +2,6 @@ body {
     background-image: linear-gradient(#f6d99c, #e9723a);
 }
 
-.btn {
-    font-size: xx-large;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 i {
     margin-right: auto;
     padding-right: 1rem;
@@ -16,6 +9,13 @@ i {
 
 span {
     margin-right: auto;
+}
+
+.btn {
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .text-bg-violet {
