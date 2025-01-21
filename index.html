@@ -32,7 +32,7 @@
         </p>
         <p class="lead fw-semibold">Use the following links to discover the bountiful and colored facets of the lovely Mrs. Apple's Community!</p>
         <div class="btn-group-vertical btn-group-lg" role="group" aria-label="Links to various platforms">
-            <a href="https://bit.ly/rajka-shop-sub" class="btn btn-outline-dark" id="rajka-shop">
+            <a href="https://bit.ly/rajka-shop-sub" class="btn btn-outline-dark" id="rajka-shop-link">
                 <i class="bi bi-shop-window"></i>
                 <span>Shop</span>
             </a>
@@ -83,7 +83,7 @@
             const name = 'outbound-link-click';
             document.querySelectorAll('a').forEach(a => {
                 if (a.host !== window.location.host && !a.getAttribute('data-umami-event')) {
-                    a.setAttribute('data-umami-event', a.id);
+                    a.setAttribute('data-umami-event', `${a.id}-click`);
                     a.setAttribute('data-umami-event-url', a.href);
                 }
             });
