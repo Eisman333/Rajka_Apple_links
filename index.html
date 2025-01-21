@@ -80,9 +80,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         (() => {
-            let eventName = 'outbound-link-click';
             document.querySelectorAll('a').forEach(a => {
                 if (a.host !== window.location.host && !a.getAttribute('data-umami-event')) {
+                    let eventName = 'outbound-link-click';
                     if (a.id) { eventName = `${a.id}-click`; }
                     a.setAttribute('data-umami-event', eventName);
                     a.setAttribute('data-umami-event-url', a.href);
