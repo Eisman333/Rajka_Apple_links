@@ -23,6 +23,11 @@ span {
     justify-content: center;
 }
 
+.btn:hover img {
+    filter: invert(1);
+    transition-duration: .15s;
+}
+
 .text-bg-violet {
     color: #fff !important;
     background-color: #e592d2;
