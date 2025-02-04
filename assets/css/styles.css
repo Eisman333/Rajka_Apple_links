@@ -2,9 +2,14 @@ body {
     background-image: linear-gradient(#f6d99c, #e9723a);
 }
 
-i {
+i,
+img {
     margin-right: auto;
     padding-right: 1rem;
+}
+
+img {
+    max-height: 2rem;
 }
 
 span {
