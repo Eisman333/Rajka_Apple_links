@@ -37,3 +37,16 @@ span {
     color: #fff !important;
     background-color: #9d75b4;
 }
+
+.button-groups {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-groups>div {
+    margin: .5rem;
+    flex-grow: 1;
+    max-width: 15rem;
+    min-width: 15rem;
+}
