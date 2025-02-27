@@ -38,15 +38,74 @@ span {
     background-color: #9d75b4;
 }
 
-.button-groups {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.platform-button-group {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+    column-gap: .5rem;
 }
 
-.button-groups>div {
-    margin: .5rem;
-    flex-grow: 1;
+.platform-button-group>a {
+    height: 4.2rem;
     max-width: 15rem;
     min-width: 15rem;
+}
+
+
+
+@media (width > 1200px) {
+    .platform-button-group>a:nth-child(3n) {
+        border-bottom-right-radius: var(--bs-btn-border-radius) !important;
+        border-bottom-left-radius: var(--bs-btn-border-radius) !important;
+    }
+
+    .platform-button-group>a:nth-child(3n+1) {
+        border-top-right-radius: var(--bs-btn-border-radius) !important;
+        border-top-left-radius: var(--bs-btn-border-radius) !important;
+        margin-top: 0 !important;
+    }
+}
+
+@media (width > 992px) and (max-width: 1200px) {
+    .platform-button-group {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+
+    .platform-button-group>a:nth-child(4n) {
+        border-bottom-right-radius: var(--bs-btn-border-radius) !important;
+        border-bottom-left-radius: var(--bs-btn-border-radius) !important;
+    }
+
+    .platform-button-group>a:nth-child(4n+1) {
+        border-top-right-radius: var(--bs-btn-border-radius) !important;
+        border-top-left-radius: var(--bs-btn-border-radius) !important;
+        margin-top: 0 !important;
+    }
+}
+
+@media (width > 576px) and (max-width: 992px) {
+    .platform-button-group {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .platform-button-group>a:nth-child(6n) {
+        border-bottom-right-radius: var(--bs-btn-border-radius) !important;
+        border-bottom-left-radius: var(--bs-btn-border-radius) !important;
+    }
+
+    .platform-button-group>a:nth-child(6n+1) {
+        border-top-right-radius: var(--bs-btn-border-radius) !important;
+        border-top-left-radius: var(--bs-btn-border-radius) !important;
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .platform-button-group {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, auto);
+    }
 }
