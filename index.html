@@ -93,6 +93,40 @@
                 <i class="bi bi-youtube"></i>
                 <span>Youtube</span>
             </a>
+
+            <!-- Placeholders -->
+            <script>
+                (function () {
+                    const icon = document.getElementById('placeholder-one');
+                    const icons = ['bi-hourglass-split', 'bi-hourglass-bottom', 'bi-hourglass-top'];
+                    let index = 0;
+
+                    setInterval(() => {
+                        icon.classList.remove(icons[index]);
+                        index = (index + 1) % icons.length;
+                        icon.classList.add(icons[index]);
+                    }, 1500); // switch every 1.5 seconds
+                })();
+                (function () {
+                    const icon = document.getElementById('placeholder-two');
+                    const icons = ['bi-hourglass-top', 'bi-hourglass-split', 'bi-hourglass-bottom'];
+                    let index = 0;
+
+                    setInterval(() => {
+                        icon.classList.remove(icons[index]);
+                        index = (index + 1) % icons.length;
+                        icon.classList.add(icons[index]);
+                    }, 1500); // switch every 1.5 seconds
+                })();
+            </script>
+            <a href="/" class="btn btn-outline-dark" id="placeholder-one">
+                <i class="bi bi-hourglass"></i>
+                <span>Coming soon...</span>
+            </a>
+            <a href="/" class="btn btn-outline-dark" id="placeholder-two">
+                <i class="bi bi-hourglass"></i>
+                <span>Coming soon...</span>
+            </a>
         </div>
 
         <div class="mt-4">
